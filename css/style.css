@@ -1,0 +1,91 @@
+/* 
+* Author: Hasan
+* Github: https://github.com/hasanrafi69
+* Email: hasanrafi69@gmail.com
+* Mobile: +880-161-782323
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&family=Roboto:wght@500&family=Varela+Round&display=swap');
+*{margin: 0; padding: 0; outline: 0; box-sizing: border-box;}
+body{font-family: 'Poppins', sans-serif; font-size: 16px;}
+/* Common Style */
+section {
+    padding: 4rem 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.title {
+    padding: 10px 0;
+}
+.scale{
+    transition: transform 2s;
+}
+.scale:hover{
+    transform: scale(1.1)
+}  
+/* overwrite boostrap */
+.btn-success {
+    background-color: #96B032;
+    border-color: #96B032;
+    text-transform: uppercase;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #96B032;
+    border-color: #96B032;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+/* Nabar */
+.nav-item {
+    padding: 0 1rem;
+}
+/* Banner */
+.banner{
+    background: #FFFBF0;
+}
+.banner-content h1 {
+    font-size: 80px;
+}
+.banner-content h1, .title h1{
+    font-family: 'Bebas Neue';
+    color: #363958;
+    text-transform: uppercase;
+}
+.banner-content h1:first-child{
+    color: #FABE4C;
+}
+/* Product */
+.card{
+    border: 0!important;
+    box-shadow: 5px 5px 10px #c5c4c452;
+    padding: 10px;
+}
+.card img {
+    background: #F1F1F1;
+    padding: 25px;
+    height: 350px;
+}
+
+.card-title {
+    color: #363958;
+    word-spacing: 0.5px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.card-text{
+    color: #3E3E3E;
+}
+.price {
+    font-size: 25px;
+    color: #FABE4C;
+    font-weight: 600;
+}
