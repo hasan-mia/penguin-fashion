@@ -89,3 +89,13 @@ img{
     color: #FABE4C;
     font-weight: 600;
 }
+/* Faq Shop */
+.faq {
+    box-shadow: 2px 1px 5px #ededed;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+.faq img {
+    width: 162px;
+    height: 100%;
+}
